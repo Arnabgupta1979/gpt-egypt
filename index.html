@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Egypt Seed Regulations Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<!-- add class for leafy background on home -->
+<body class="has-hero-bg">
+<header>
+  <div class="nav">
+    <div class="nav-brand">
+      <div class="nav-logo"></div>
+      <span>Egypt Seed Regulations</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="laws.html">Laws</a>
+      <a href="procedures.html">Procedures</a>
+      <a href="institutions.html">Institutions</a>
+      <a href="international.html">International</a>
+      <a href="resources.html">Resources</a>
+      <a href="about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <!-- Glass hero like the reference screenshot -->
+  <section class="hero">
+    <div>
+      <div class="hero-tagline">Seed laws • Egypt</div>
+      <h1>Find the seed rules that matter for your work.</h1>
+      <p>
+        A simple entry point into Egypt’s seed laws, regulations, and institutions. 
+        Whether you are a seed company, regulator, farmer organisation, or development partner, 
+        this site helps you locate the right information – and the right authority – quickly.
+      </p>
+      <p>
+        Start by choosing the path that best fits you, or use the navigation above to dive straight into the details.
+      </p>
+      <div class="hero-actions">
+        <a class="btn-primary" href="procedures.html">
+          I need to follow a procedure
+          <span>→</span>
+        </a>
+        <a class="btn-ghost" href="laws.html">
+          I want to see the main laws
+        </a>
+      </div>
+      <div class="hero-pills">
+        <span class="hero-pill">📜 Variety registration & PVP</span>
+        <span class="hero-pill">🧪 Seed certification</span>
+        <span class="hero-pill">🚢 Import / export rules</span>
+        <span class="hero-pill">🌍 COMESA • UPOV • ISTA</span>
+      </div>
+    </div>
+
+    <aside class="hero-aside">
+      <div>
+        <div class="hero-aside-title">Who is this portal for?</div>
+        <ul>
+          <li>Private seed companies and new seed entrepreneurs</li>
+          <li>Public authorities and inspectors working on seeds</li>
+          <li>Farmer organisations looking for clear guidance</li>
+          <li>NGOs and development partners analysing the seed sector</li>
+        </ul>
+      </div>
+      <div class="hero-aside-footer">
+        Neutral summaries only – always refer to official Arabic texts
+        and competent authorities for legal decisions.
+      </div>
+    </aside>
+  </section>
+
+  <!-- Simple tiles instead of dozens of cards -->
+  <section class="section">
+    <div class="tiles">
+      <article class="tile">
+        <h3>For seed companies & investors</h3>
+        <p>
+          Learn which laws apply to you, how to register varieties, and how to obtain licences 
+          for production, import, and marketing of seed.
+        </p>
+        <a href="procedures.html">Go to procedures →</a>
+      </article>
+
+      <article class="tile">
+        <h3>For authorities & regulators</h3>
+        <p>
+          Overview of the legal framework, institutional responsibilities, and links to 
+          regional and international commitments impacting the seed sector.
+        </p>
+        <a href="laws.html">Explore laws & institutions →</a>
+      </article>
+
+      <article class="tile">
+        <h3>For farmers & development partners</h3>
+        <p>
+          Plain-language explanations of seed quality labels, farmers’ rights, and 
+          international agreements such as IT-PGRFA and COMESA seed regulations.
+        </p>
+        <a href="international.html">See international frameworks →</a>
+      </article>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © <span id="year"></span> Egypt Seed Regulations Portal – informational use only.
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
